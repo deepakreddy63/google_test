@@ -27,8 +27,10 @@ Place the files as follows
 
 ## Setting up third example with test fixture 
 - Apply the same steps as first example
-- account\_test program is generated from account.cc and account\_testfixture.cc source files
+- account\_testfeature program is generated from account.cc and account\_testfixture.cc source files
 - This example tests a class and its member functions using googletest test fixture feature
+
+Here are a few lines from the comments of the above code (not my own words, source:- sample3_unittest.cc)
 
 A __test fixture__ is a place to hold objects and functions shared by all tests in a test case. Using a test fixture *avoids duplicating the test code* necessary to initialize and clean up those common objects for each test.  It is also useful for defining sub-routines that your tests need to invoke a lot.
 
