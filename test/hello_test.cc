@@ -16,6 +16,7 @@ namespace {   //anonymous
     EXPECT_EQ(0, IsLeapYear(2018));
     EXPECT_EQ(0, IsLeapYear(1995));
     EXPECT_NE(1, IsLeapYear(1900));
+    EXPECT_EQ(1, IsLeapYear(2015))<<"2015 is not a leap year";
     EXPECT_FALSE(1==IsLeapYear(2100));
   }
 }
