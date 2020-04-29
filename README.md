@@ -37,7 +37,3 @@ The tests share the test fixture in the sense of code sharing, not data sharing.
 The reason for this design is that tests should be independent and repeatable.  In particular, a test should not fail as a result of another test's failure.  If one test depends on the info produced by another test, then the two tests should really be one big test.
 
 The macros for indicating the success/failure of a test  (EXPECT_TRUE, FAIL, etc) need to know what the current test is  (when Google Test prints the test result, it tells you which test each failure belongs to).  Technically, these macros invoke a  member function of the Test class. Therefore, you cannot use them in a global function.  That's why you should put test sub-routines in a test fixture.
-
-- Apply the same steps as first example\
-- account\_testfixture program is generated from account.cc and account\_testfixture.cc source files\
-- This example tests a class and its member functions using test
