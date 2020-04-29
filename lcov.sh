@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# reference:https://qiaomuf.wordpress.com/2011/05/26/use-gcov-and-lcov-to-know-your-test-coverage/
 which lcov 1>/dev/null 2>&1
 if [ $? != 0 ]
 then
