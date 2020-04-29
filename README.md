@@ -2,13 +2,13 @@
 To try googletest framework
 
 Steps to install and use
-git clone https://github.com/google/googletest
-cd googletest
-mkdir build && cd build
-cmake ..
-make
-#Identify generated static libs in build/lib, 
-#which are libgtest.a, libgtest_main.a
+    git clone https://github.com/google/googletest
+    cd googletest
+    mkdir build && cd build
+    cmake ..
+    make
+    #Identify generated static libs in build/lib, 
+    #which are libgtest.a, libgtest_main.a
 
 Setting up the first example:-
 
