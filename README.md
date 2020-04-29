@@ -1,16 +1,16 @@
 # google_test
-To try googletest framework
+## To try googletest framework\
 
-Steps to install and use
-    git clone https://github.com/google/googletest
-    cd googletest
-    mkdir build && cd build
-    cmake ..
-    make
-    #Identify generated static libs in build/lib, 
-    #which are libgtest.a, libgtest_main.a
+Steps to install and use\
+    git clone https://github.com/google/googletest\
+    cd googletest\
+    mkdir build && cd build\
+    cmake ..\
+    make\
+    #Identify generated static libs in build/lib, \
+    #which are libgtest.a, libgtest_main.a\
 
-Setting up the first example:-
+## Setting up the first example:-
 
 Place the files as follows
 
