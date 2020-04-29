@@ -1,5 +1,5 @@
 # google_test
-## To try googletest framework\
+## To try googletest framework
 
 Steps to install and use\
     git clone https://github.com/google/googletest\
