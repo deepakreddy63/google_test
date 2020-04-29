@@ -38,6 +38,8 @@ The reason for this design is that tests should be independent and repeatable.  
 
 The macros for indicating the success/failure of a test  (EXPECT_TRUE, FAIL, etc) need to know what the current test is  (when Google Test prints the test result, it tells you which test each failure belongs to).  Technically, these macros invoke a  member function of the Test class. Therefore, you cannot use them in a global function.  That's why you should put test sub-routines in a test fixture.
 
-- Apply the same steps as first example\
-- account\_testfixture program is generated from account.cc and account\_testfixture.cc source files\
-- This example tests a class and its member functions using test
+## Code coverage using lcov & gcov
+- gcov is a gnu tool for code analysis like number of times each line is run in code 
+- gcov can be used by specifying --coverage flag during compiling and later using gcov -b *.cpp.  
+Note:- --coverage is a synonym  for -fprofile-arcs -ftest-coverage
+- lcov is a graphical tool to produce html files from gcov output
