@@ -1,4 +1,5 @@
 # google_test
+https://github.com/google/googletest
 ## To install googletest framework
 
 Steps to install and use  
@@ -31,6 +32,7 @@ Place the files as follows
 - This example tests a class and its member functions using googletest test fixture feature
 
 Here are a few lines from the comments of the above code (not my own words, source:- sample3_unittest.cc)
+https://github.com/google/googletest/blob/master/googletest/samples/sample3_unittest.cc
 
 A __test fixture__ is a place to hold objects and functions shared by all tests in a test case. Using a test fixture *avoids duplicating the test code* necessary to initialize and clean up those common objects for each test.  It is also useful for defining sub-routines that your tests need to invoke a lot.
 
