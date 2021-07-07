@@ -2,6 +2,12 @@
 #include "account.h"
 #include "gtest/gtest.h"
 
+/* Test Fixture:
+It is typical to do some custom initialization work before executing a unit test. 
+For example, if you are trying to measure the time/memory footprint of a test, you need to put some test-specific code in place to measure those values. 
+This is where fixtures come in—they help you set up such custom testing needs. Below listing shows what a fixture class looks like.
+*/
+
 class AccountTest : public testing::Test {
 protected:
     AccountTest():a2(1001,"Lippman",5000.0),a3(a2) {
