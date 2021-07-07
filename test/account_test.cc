@@ -1,6 +1,8 @@
 #include <limits.h>
 #include "account.h"
 #include "gtest/gtest.h"
+
+//creates a test hierarchy named Account and then adds unit tests
 namespace {   //anonymous
 
     TEST(Account,DefaultConstructor) {
